@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Contact.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;900&display=swap');
+    </style>
+</head>
+
+<body>
+
+    <div class="nav-bar">
+        <div class="logo">
+            <a href="index.html">
+                <img class="img-logo" src="images/Logo.png" alt="">
+            </a>
+        </div>
+        <div class="nav-menu">
+            <div class="nav-links">
+                <ul>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="Portfolio.html">Portfolio</a></li>
+                </ul>
+            </div>
+            <div class="nav-ham">
+                <a href="Ham-Menu.html"> <img class="img-ham" src="images/hamburger-menu.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-form">
+        <div class="left-content">
+            <p class="title">KonarDesign</p>
+            <p class="city">London</p>
+            <p class="road">123 London Road</p>
+            <p class="postcode">LN1 09N</p>
+            <p class="phone">+44 7935 956564</p>
+            <p class="email">hello@konardesign.com</p>
+            <div class="social-icons">
+                <img src="images/whatsapp-icon.png" alt="">
+                <img src="images/facebook-icon.png" alt="">
+                <img src="images/instagram-icon.png" alt="">
+                <img src="images/twitter-icoon.png" alt="">
+                <img src="images/tiktok-icon.png" alt="">
+                <img src="images/youtube-icon.png" alt="">
+            </div>
+        </div>
+    
+        <div>
+            <form>
+                <table>
+                    <tr>
+                        <td>
+                            <div class="input">
+                                <label for="first_name">First Name:</label>
+                                <input type="text" id="first_name" name="first_name">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="input">
+                                <label for="last_name">Last Name:</label>
+                                <input type="text" id="last_name" name="last_name">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div class="input">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="input">
+                                <input type="checkbox" id="custom_website" name="custom_website">
+                                <label for="custom_website">Custom Website</label>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="input">
+                                <input type="checkbox" id="ecommerce_website" name="ecommerce_website">
+                                <label for="ecommerce_website">E-commerce Website</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="input">
+                                <input type="checkbox" id="budget_1500_2000" name="budget" value="1500-2000">
+                                <label for="budget_1500_2000">£1500-£2000</label>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="input">
+                                <input type="checkbox" id="budget_2000_2500" name="budget" value="2000-2500">
+                                <label for="budget_2000_2500">£2000-£2500</label>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="input">
+                                <input type="checkbox" id="budget_2500_3000" name="budget" value="2500-3000">
+                                <label for="budget_2500_3000">£2500-£3000</label>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="input">
+                                <input type="checkbox" id="budget_3000_plus" name="budget" value="3000+">
+                                <label for="budget_3000_plus">£3000+</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">
+                            <div class="input">
+                                <label for="message">Message:</label><br>
+                                <textarea id="message" name="message" rows="4" cols="50"></textarea>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">
+                            <div class="input">
+                                <input type="submit" value="Submit">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
